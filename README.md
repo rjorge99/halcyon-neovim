@@ -35,7 +35,8 @@ This theme supports transparent terminals out of the box (most of the background
 
 If you are using a terminal without opacity, setting the background colour to `#1d2433` can make a big difference.
 
-### Reference
+### References
 
 [halcyon-vscode](https://github.com/bchiang7/halcyon-vscode/)
+
 [NeoVim Documentation](https://neovim.io/doc/user/syntax.html)
