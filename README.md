@@ -11,7 +11,7 @@ Languages I've tweaked this theme with: C, JavaScript, Golang, Python, Common Li
 Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'NieTiger/halcyon.vim'
+Plug 'NieTiger/halcyon-neovim'
 colorscheme halcyon
 ```
 
