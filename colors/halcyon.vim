@@ -65,7 +65,7 @@ call s:GuiFor('Normal', 'NONE', s:FOREGROUND)
 " Keywords, constants, template literals, purple
 " --------------------------------------------------
 call s:GuiFor("Constant", "NONE", s:PURPLE)
-call s:GuiFor('Keyword', 'NONE', s:PURPLE)
+call s:GuiFor('Keyword', 'NONE', s:PURPLE, "bold")
 call s:GuiFor('Number', 'NONE', s:PURPLE)
 call s:GuiFor('Repeat', 'NONE', s:PURPLE)
 call s:GuiFor('Special', 'NONE', s:PURPLE)
@@ -319,7 +319,7 @@ call s:GuiFor('TSBoolean', 'NONE', s:PURPLE)
 call s:GuiFor('TSConditional', 'NONE', s:ORANGE)
 
 
-call s:GuiFor('TSKeyword', 'NONE', s:PURPLE)
+call s:GuiFor('TSKeyword', 'NONE', s:PURPLE, "bold")
 call s:GuiFor('TSKeywordFunction', 'NONE', s:PURPLE)
 call s:GuiFor('TSKeywordOperator', 'NONE', s:ORANGE)
 call s:GuiFor('TSKeywordReturn', 'NONE', s:ORANGE)
