@@ -78,7 +78,7 @@ call s:GuiFor('Typedef', 'NONE', s:PURPLE)
 " --------------------------------------------------
 " Functions, classes, object literal keys, yellow
 " --------------------------------------------------
-call s:GuiFor('Function', 'NONE', s:YELLOW)
+call s:GuiFor('Function', 'NONE', s:YELLOW, { bold = true })
 call s:GuiFor('Directory', 'NONE', s:YELLOW)
 call s:GuiFor('PreProc', 'NONE', s:YELLOW)
 call s:GuiFor('StorageClass', 'NONE', s:YELLOW)
@@ -328,7 +328,7 @@ call s:GuiFor('TSMethod', 'NONE', s:YELLOW)
 call s:GuiFor('TSNamespace', 'NONE', s:YELLOW)
 call s:GuiFor('TSConstructor', 'NONE', s:YELLOW)
 
-call s:GuiFor('TSFunction', 'NONE', s:YELLOW)
+call s:GuiFor('TSFunction', 'NONE', s:YELLOW, { bold = true })
 call s:GuiFor('TSFuncBuiltin', 'NONE', s:YELLOW)
 
 call s:GuiFor('TSPunctDelimiter', 'NONE', s:FOREGROUND)
