@@ -360,6 +360,27 @@ call s:GuiFor('python_decorator', 'NONE', s:CYAN)
 call s:GuiFor('javascriptTSVariable', 'NONE', s:CYAN)
 call s:GuiFor('typescriptTSVariable', 'NONE', s:CYAN)
 
+
+" Extras
+call s:GuiFor('gitconfigSection', 'NONE', s:ACCENT)
+call s:GuiFor('gitconfigVariable', 'NONE', s:PURPLE)
+call s:GuiFor('@tag.attribute.vue', 'NONE', s:ORANGE)
+call s:GuiFor('@tag.vue', 'NONE', s:BLUE)
+call s:GuiFor('@keyword.import.typescript', 'NONE', s:ORANGE)
+call s:GuiFor('@type.typescript', 'NONE', s:BLUE)
+call s:GuiFor('@variable.parameter.typescript', 'NONE', s:BLUE)
+call s:GuiFor('@variable.builtin.typescript', 'NONE', s:BLUE)
+call s:GuiFor('@variable.member.typescript', 'NONE', s:BLUE)
+call s:GuiFor('@punctuation.bracket.typescript', 'NONE', s:PURPLE)
+call s:GuiFor('@variable.member.vue', 'NONE', s:ORANGE)
+call s:GuiFor('@keyword.operator.typescript', 'NONE', s:ORANGE)
+call s:GuiFor('@variable.typescript', 'NONE', s:BLUE)
+call s:GuiFor('@lsp.mod.defaultLibrary.typescript', 'NONE', s:BLUE)
+call s:GuiFor('@lsp.typemod.variable.readonly.typescript', 'NONE', s:BLUE)
+call s:GuiFor('@lsp.typemod.variable.local.typescript', 'NONE', s:BLUE)
+call s:GuiFor('@keyword.return.typescript', 'NONE', s:ORANGE)
+
+
 " ==================================================
 " Built-in Terminal
 " --------------------------------------------------
